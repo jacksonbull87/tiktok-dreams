@@ -4,17 +4,10 @@
 <img src="https://media.giphy.com/media/xUOwGmRx1Tu084dBzq/source.gif">
 </p>
 
-<!-- <p align="center">
-<img src="https://media.giphy.com/media/xUOwGmRx1Tu084dBzq/source.gif">
-</p> -->
+## Introduction
+It was probably 1–2 months ago when I first saw the original tiktok posting that Mick Fleetwood famously recreated. I was doing my usual bedtime routine, aimlessly scrolling through TikTok looking to be entertained. When I landed on user's post, it didn't really strike me as anything special at first; no fancy choreophed dance, no jokes, no famous celebrity (yet)…just a guy cruising down the street on a skateboard, drinking Ocean Spray cranberry juice straight out of the carton - all while filming himself for his TikTok followers. But there was something about Stevie Nicks' cool, breezy voice that emphasized 420doggface208's carefree attitude, which I think helped resonate with nearly 5 million viewers. On a platform that is dominated by pop and hip-hop songs, the interesting question here is: How does a 42 year-old classic rock song break streaming records on a platform used mostly by kids who weren't even born when the song was first released?
 
-<!-- ## Introduction
-
-Summer is typically an exciting time for music fans; as the days get longer and the temperature 
-starts to heat up, positive and lively new music releases provide the perfect soundtrack 
-to BBQs, trips to the beach, roadtrips, blockparties, and other forms of real life escapism.
-Using data from TikTok's weekly music charts, the goal of this project is to examine the most
-popular songs as defined by the following KPIs:
-- Longevity (Time Spent on Chart)
-- Velocity (Biggest Change in Rank Over a 7-Day Period) -->
-<!-- - Spotify Popularity (Biggest Increase in Popularity Score)
+## How Has TikTok Affected Spotify Playlist Activity 
+<p align="center">
+![](images/spotify_playlistadds_dreamsmstr.png)
+</p>
