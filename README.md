@@ -9,4 +9,4 @@ It was probably 1–2 months ago when I first saw the original tiktok posting th
 
 ## How Has TikTok Affected Spotify Playlist Activity 
 
-![Test](images/spotify_playlistadds_dreamsmstr.jpeg)
+![Test](/images/spotify_playlistadds_dreamsmstr.jpeg)
