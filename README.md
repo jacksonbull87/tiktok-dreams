@@ -1,11 +1,11 @@
 # Dreams - Fleetwood Mac
 ## How a 42 Year Old Song Broke Streaming Records After Viral TikTok Video
 <p align="center"> 
-![](/images/mick-fleetwood-3.jpeg)
+<img src="https://media.giphy.com/media/xUOwGmRx1Tu084dBzq/source.gif">
 </p>
 
 <!-- <p align="center">
-<img src="https://media.giphy.com/media/TKqXCyRwqf0DC/source.gif">
+<img src="https://media.giphy.com/media/xUOwGmRx1Tu084dBzq/source.gif">
 </p> -->
 
 <!-- ## Introduction
