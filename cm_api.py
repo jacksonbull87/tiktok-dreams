@@ -85,6 +85,35 @@ def get_tiktok_chart_data(api_token, chart_type, date, interval, limit=100):
         chart = data['obj']
         return chart['data']
 
+
+def get_track_chart(api_token, cm_id, chart_type, since):
+    response = requests.get(url='https://api.chartmetric.com/api/track/{}/{}/charts'.format(cm_id, chart_type),
+                            headers={'Authorization' : 'Bearer {}'.format(api_token)}, params={'since':since}
+                                )
+    if response.status_code == 200:
+        data = response.json()
+        chart = data['obj']
+        return chart['data']
+    else:
+        print("Artist ID: ", cm_id)
+        print(response.status_code)
+        print(response.text)
+
+
+def get_track_playlist(api_token, cm_id, platform, status, since, limit):
+    response = requests.get(url='https://api.chartmetric.com/api/track/{}/{}/{}/playlists'.format(cm_id, platform, status),
+                            headers={'Authorization' : 'Bearer {}'.format(api_token)}, params={'since':since, 'limit': limit}
+                                )
+    if response.status_code == 200:
+        data = response.json()
+        chart = data['obj']
+        return chart
+    else:
+        print("Artist ID: ", cm_id)
+        print(response.status_code)
+        print(response.text)
+
+
 def get_artist_id(api_token, q, search_type):
     #return tuple (artist name, artist cm id)
     response = requests.get(url='https://api.chartmetric.com/api/search',
@@ -122,7 +151,7 @@ def get_fan_metrics(api_token, cm_artist_id, source, since_date, field=None):
         except TypeError:
             return "None"
     else:
-        print(cm_artist_id)
+        print("Artist ID: ", cm_artist_id)
         print(response.status_code)
         print(response.text)
 
