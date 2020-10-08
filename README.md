@@ -10,4 +10,5 @@ It was probably 1–2 months ago when I first saw the original tiktok posting th
 ## How Has TikTok Affected Spotify Playlist Activity 
 Since there are multiple versions of Dreams available on Spotify, we're going to combine the trends from both track into one barplot.
 The visualization below illustrates a side-by-side comparison of the number of playlists each were added to *per* day  (not cumulative)
+
 ![](/images/spotify_playlistadds_bothdreams.png)
