@@ -15,5 +15,15 @@ It was probably 1–2 months ago when I first saw the original tiktok posting th
 Since there are multiple versions of Dreams available on Spotify, we're going to combine the trends from both track into one barplot.
 The visualization below illustrates a side-by-side comparison of the number of playlists each were added to *per* day  (not cumulative)
 
+### Timeline Milestones
+- 2020-09-25: 420doggface208 posts original video on TikTok
+- 2020-10-05: Mick Fleetwood recreates viral TikTok video
+
+### Insights
+- On September 25, the number of playlist adds **increased by 225%** compared to the day before
+- Before the original post, the median # playlist adds per day was 1; After, the median # playlist adds per day was 6.5
+    - **The median number of playlist adds per day increased by 550%!**
+
+![](/images/median_playlist_adds.jpeg)
 
 ![](/images/spotify_playlistadds_bothdreams.png)
