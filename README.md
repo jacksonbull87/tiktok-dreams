@@ -15,9 +15,9 @@ It was probably 1–2 months ago when I first saw the original tiktok posting th
 - 2020-09-25: 420doggface208 posts original video on TikTok
 - 2020-10-05: Mick Fleetwood recreates viral TikTok video
 
-## Historic Spotify Playlist Adds 
+## Daily Spotify Playlist Adds *September*
 Since there are multiple versions of Dreams available on Spotify, we're going to combine the trends from both track into one barplot.
-The visualization below illustrates a side-by-side comparison of the number of playlists each were added to *per* day  (not cumulative)
+The visualization below illustrates a side-by-side comparison of the daily total playlist adds
 
 
 ### Insights
@@ -28,3 +28,10 @@ The visualization below illustrates a side-by-side comparison of the number of p
 ![](/images/median_playlist_adds.jpeg)
 
 ![](/images/spotify_playlistadds_bothdreams.png)
+
+## Daily Spotify Reach *September*
+After comparing the daily total number of followers of playlists that added each track, the playlists that added the 2004 Remastered
+version had a significantly larger reach. So in order to visualize it, I had to rescale the y-axis (total reach) by taking the natural log.
+
+![](/images/spotify_dailyreachlog_bothdreams.png)
+
