@@ -35,3 +35,8 @@ version had a significantly larger reach. So in order to visualize it, I had to 
 
 ![](/images/spotify_dailyreachlog_bothdreams.png)
 
+There's a clear upward trend in the amount of playlist followers that both tracks are being exposed to. Let take a closer look
+by creating a pivot table that shows us the median reach of both versions of the song *before* and *after* the viral TikTok video.
+
+![](/images/pt_before_after_median_reach.png)
+
