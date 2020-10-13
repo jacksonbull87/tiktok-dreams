@@ -40,3 +40,7 @@ by creating a pivot table that shows us the median reach of both versions of the
 
 ![](/images/pt_before_after_median_reach.png)
 
+{% include images/table.html %}
+
+
+
