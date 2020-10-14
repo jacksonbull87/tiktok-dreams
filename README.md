@@ -40,7 +40,11 @@ by creating a pivot table that shows us the median reach of both versions of the
 
 ![](/images/pt_before_after_median_reach.png)
 
-{% include images/table.html %}
+### Insights
+After analyzing both charts, it's clear that @420doggface280's post on 9-25 initiated a domino effect of compounding growth starting 2 days later. Even though the greated hits version was added to more playlists on 9-27, 
+the total number of followers that the remastered version was exposed to is +10,000% more than the reach of the greatest hits version...Not Even A Contest!
 
 
-
+## Next Steps
+Now that we've established that the Dreams 2004 Remastered version is the real winner, let's take a deeper look into 
+how this track had such a significant reach.
