@@ -72,3 +72,6 @@ Step 4: Using the power of Regex, I created a helper function that labels each t
 `historic_top200usa['major genre'] = historic_top200usa['track_genre'].apply(lambda x: map_genre(str(x)))`
 
 ![](/images/total_genre_counts.png)
+
+
+![Spotify Top 200 Genre Trends - 2020](/images/top200_genre_trends_2020.png)
