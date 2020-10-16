@@ -46,5 +46,11 @@ the total number of followers that the remastered version was exposed to is +10,
 
 
 ## Next Steps
-Now that we've established that the Dreams 2004 Remastered version is the real winner, let's take a deeper look into 
-how this track had such a significant reach.
+There are multiple directions we can go from here, but that depends on the question being asked. IMO, with today's top 40 market being dominated by pop and hip-hop songs, are we starting to see a resurgence in rock songs or is this just a fluke? In order to find the answer, we'll need to gather historical data on the USA Top 50 playlist and then take a look at how the distribution of genre has changed over time.
+However, the api I am using to collect data doesn't permit historical access to the USA Spotify Top 50. But I do have access to historical Top 200 data.
+So let's  grab every weekly Spotify Top 200 chart from January 5th, 2020 (Sunday) and September 13th, 2020 (Wednesday); each chart is separated by a 7-day period.
+`date_list = [str(x)[:10] for x in list(pd.date_range(start="2020-01-01",end="2020-10-15", freq="W"))]`
+
+Now let's loop through this list and extract every Spotify Top 200 Chart in the USA region, parse it, and save each chart as a separate csv file.
+
+
