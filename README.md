@@ -51,6 +51,7 @@ However, the api I am using to collect data doesn't permit historical access to 
 So let's  grab every weekly Spotify Top 200 chart from January 5th, 2020 (Sunday) and September 13th, 2020 (Wednesday); each chart is separated by a 7-day period.
 
 Step 1: Create a list of dates we can make our api call with
+
 `date_list = [str(x)[:10] for x in list(pd.date_range(start="2020-01-01",end="2020-10-15", freq="W"))]`
 
 Step 2: Loop through `date_list` and extract every Spotify Top 200 Chart in the USA region, parse it, and save each chart as a separate csv file.
@@ -58,10 +59,13 @@ Step 2: Loop through `date_list` and extract every Spotify Top 200 Chart in the 
 ![](/images/getting_top200_data.png)
 
 Step 3: Look at the value counts for `historic_top200usa['track_genre']`.
-As you can see below, the genre tags can get quite specific. Most people probably don't know the difference between "pop" and "post-teen pop" or "philly rap" or "nyc rap". 
+As you can see below, the genre tags can get quite specific. Most people probably don't know the difference between "pop" and "post-teen pop" or 
+"philly rap" or "nyc rap". 
+
 ![](/images/genre_value_counts.png)
 
-In order to simply this, let's create a new feature that labels each track as either "pop", "rap/hip-hop", "country", "rock" using regex
+Step 4: Using the power of Regex, I created a helper function that labels each track as either "pop", "rap/hip-hop", "country", "rock" using regex
+
 
 `import map_genre`
 
