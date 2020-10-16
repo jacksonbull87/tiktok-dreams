@@ -99,6 +99,20 @@ def get_track_chart(api_token, cm_id, chart_type, since):
         print(response.status_code)
         print(response.text)
 
+def get_spotify_charts(api_token, date, country_code, chart_type, interval):
+    response = requests.get(url='https://api.chartmetric.com/api/charts/spotify',
+                            headers={'Authorization' : 'Bearer {}'.format(api_token)}, 
+        params={'date':date, 'country_code':country_code, 'type':chart_type, 'interval':interval}
+                                )
+    if response.status_code == 200:
+        data = response.json()
+        chart = data['obj']
+        return chart['data']
+    else:
+        
+        print(response.status_code)
+        print(response.text)
+
 
 def get_track_playlist(api_token, cm_id, platform, status, since, limit):
     response = requests.get(url='https://api.chartmetric.com/api/track/{}/{}/{}/playlists'.format(cm_id, platform, status),
