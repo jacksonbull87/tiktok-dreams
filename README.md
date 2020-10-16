@@ -52,5 +52,4 @@ So let's  grab every weekly Spotify Top 200 chart from January 5th, 2020 (Sunday
 `date_list = [str(x)[:10] for x in list(pd.date_range(start="2020-01-01",end="2020-10-15", freq="W"))]`
 
 Now let's loop through this list and extract every Spotify Top 200 Chart in the USA region, parse it, and save each chart as a separate csv file.
-
-
+![](/images/getting_top200_data.png)
