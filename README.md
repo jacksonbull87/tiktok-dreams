@@ -53,3 +53,11 @@ So let's  grab every weekly Spotify Top 200 chart from January 5th, 2020 (Sunday
 
 Now let's loop through this list and extract every Spotify Top 200 Chart in the USA region, parse it, and save each chart as a separate csv file.
 ![](/images/getting_top200_data.png)
+
+Let's look at the value counts for `historic_top200usa['track_genre']`. As you can see above, the genre tags can get quite specific. Most people probably don't know the difference between "pop" and "post-teen pop" or "philly rap" or "nyc rap". 
+![](/images/genre_value_counts.png)
+In order to simply this, let's create a new feature that labels each track as either "pop", "rap/hip-hop", "country", "rock" using regex
+`import map_genre`
+`historic_top200usa['major genre'] = historic_top200usa['track_genre'].apply(lambda x: map_genre(str(x)))`
+
+![](/images/total_genre_counts.png)
