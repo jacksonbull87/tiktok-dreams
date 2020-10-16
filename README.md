@@ -64,7 +64,7 @@ As you can see below, the genre tags can get quite specific. Most people probabl
 
 ![](/images/genre_value_counts.png)
 
-Step 4: Using the power of Regex, I created a helper function that labels each track as either "pop", "rap/hip-hop", "country", "rock" using regex
+Step 4: Using the power of Regex, I created a helper function that labels each track as either "pop", "rap/hip-hop", "country", or "rock".
 
 
 `import map_genre`
